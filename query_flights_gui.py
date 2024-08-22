@@ -157,6 +157,7 @@ class FlightQueryApp(QWidget):
         self.results_area.clear()
         # self.appendConstraints(args)
 
+        self.results_area.append("※주의 : 실제 요금과 다를 수 있읍니다 😅\n")
         for flight in flights:
             self.results_area.append(flight.get_flight_data())
             self.results_area.append(flight.get_flight_link())
