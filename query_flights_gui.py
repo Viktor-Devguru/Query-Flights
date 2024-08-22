@@ -85,7 +85,7 @@ class FlightQueryApp(QWidget):
         main_layout.addWidget(results_group)
 
         self.setLayout(main_layout)
-        self.setWindowTitle('Query Flight ✈️')        
+        self.setWindowTitle('Query Flights ✈️')        
         self.resize(self.WIDTH, self.HEIGHT) # 창 크기 설정
         
         # 화면 중앙으로 위치
